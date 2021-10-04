@@ -1,0 +1,35 @@
+.content-head{
+    height:75vh;
+    width:95vw;
+    margin-top:90px;
+}
+.img-amuse {
+    z-index:1000;
+    height: 40% !important;
+    margin-left:100px;
+}
+.right-heading {
+    
+    .heading-1 {
+        color: var(--heading-primary);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 78px;
+        // line-height: 135px;
+        letter-spacing: -0.02em;
+    }
+    .heading-2 {
+        color: var(--heading-secondary);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 74px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    }
+    .heading-3 {
+        color: var(--heading-primary);
+        font-weight: 600;
+        font-size:68px;
+    }
+}
+

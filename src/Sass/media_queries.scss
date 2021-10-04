@@ -1,0 +1,542 @@
+
+
+// xxl devices 
+@media only screen and (max-width:1400px) {
+    // home hero section
+    .content-head{
+        margin-top:80px;
+    }
+    .img-amuse {
+        z-index:100;
+        height: 46vh;
+        // margin-left:70px;
+    }
+    .right-heading{
+
+        padding-left:59px;
+        .heading-1{
+        z-index:1000;
+            position:relative;
+        font-size: 74px;
+
+        }
+        .heading-2{
+        z-index:1000;
+        position:relative;
+
+        font-size: 68px;
+            
+        }
+        .heading-3{
+        z-index:1000;
+        font-size: 64px;
+        position:relative;
+
+            
+        }
+    }
+
+    // free classes homepage
+    .box-free-class{
+        width: 350px;
+        height:475px;
+
+    }
+    .title-free-class{
+        font-size:22px;
+        
+    }
+    .time-free-class{
+        font-size:18px;
+    
+    }
+    .btn-book-trial{
+        padding: 6px 36px !important;
+    font-size:16px !important;
+    }
+}
+
+// xl devices
+@media only screen and (max-width:1200px){
+    // navigation Bar
+    .navbar {
+        min-height: 54px;
+    }
+    .navbar-brand{
+        font-size:22px !important;
+        margin-right: 0px !important;
+
+    }
+    
+    .links{
+        font-size:14px;
+    }
+    .btn-sign-up{
+        padding: 4px 8px;
+        font-size:14px;
+    }
+    .btn-login{
+        padding: 6px 10px !important;
+        font-size:14px;
+        margin: 0 15px 0 10px;
+
+    }
+    // ---------------------------
+    // home hero section
+    .content-head{
+        margin-top:70px;
+    }
+    .img-amuse {
+        z-index:100;
+        height: 650px;
+        // margin-left:70px;
+    }
+    .right-heading{
+
+        padding-left:59px;
+        .heading-1{
+        z-index:1000;
+            position:relative;
+        font-size: 70px;
+
+        }
+        .heading-2{
+        z-index:1000;
+        position:relative;
+
+        font-size: 64px;
+            
+        }
+        .heading-3{
+        z-index:1000;
+        font-size: 60px;
+        position:relative;
+
+            
+        }
+    }
+    // free classes homepage
+    .box-free-class{
+        width: 400px;
+        height:410px;
+
+    }
+    .title-free-class{
+        font-size:18px;
+        
+    }
+    .time-free-class{
+        font-size:16px;
+    
+    }
+    .btn-book-trial{
+        padding: 6px 32px !important;
+    font-size:14px !important;
+    }
+    .img-free-class{
+        height:250px;
+    }
+
+    // testimonial tile
+    .testimonial-slider-image {
+        border-radius: 12px 12px 0 0;
+        width:100%;
+        max-height: 300px;
+        min-height: 298px;
+        object-fit: cover;
+        
+    }
+    .testimonial-slider-title{
+        font-size: 28px;
+    }
+    .testimonial-description{
+        font-size:14px;
+    }
+    .fa-quote-right{
+        font-size:28px;
+    }
+
+}
+
+
+
+
+// large devices
+@media only screen and (max-width:992px){
+    .hamburger-menu{
+        display:flex;
+    }
+    .acc-btn-container{
+        width:100%;
+        display:flex;
+        justify-content: center;
+
+        
+        .btn-sign-up{
+            margin:0;
+        }
+        .btn-login {
+            margin:0;
+            
+        }
+    }
+    // .navbar-nav{
+    //     display: none !important;
+    // }
+    // .nav-right{
+    //     display:none !important;
+    // }
+    .navbar {
+        min-height: 54px;
+    }
+    .navbar-brand{
+        font-size:22px !important;
+        margin-right: 0px !important;
+
+    }
+    .navbar-nav {
+        display: none !important;
+    }
+    .nav-right{
+        display: none !important;
+    }
+    .nav-buttons{
+        margin-left: 26px;
+    }
+    .links{
+        font-size:18px;
+    }
+    .btn-sign-up{
+        padding: 4px 8px;
+        font-size:14px;
+    }
+    .btn-login{
+        padding: 6px 10px !important;
+        font-size:14px;
+        margin: 0 15px 0 10px;
+
+    }
+
+    // home hero section
+    .img-amuse {
+        z-index:100;
+        height: 300px !important;
+        // margin-left:70px;
+    }
+
+    // testimonial
+    .slick-arrow{
+        display:none !important;
+    }
+
+    // courses page
+    .course-box-row-in{
+        min-width: 724px !important;
+        min-height: 212px;
+        margin:5px 0 0 0 !important;
+    }
+    .rating-star{
+        height:24px !important; 
+        width:24px !important;
+        z-index:100;
+    }
+    .btn-user{
+        font-size:14px !important;
+    }
+    
+}
+
+@media only screen and (max-width:767px) {
+    .hamburger-menu{
+        display:flex;
+    }
+    .acc-btn-container{
+        width:100%;
+        display:flex;
+        justify-content: center;
+
+        
+        .btn-sign-up{
+            margin:0;
+        }
+        .btn-login {
+            margin:0;
+            
+        }
+    }
+    // .navbar-nav{
+    //     display: none !important;
+    // }
+    // .nav-right{
+    //     display:none !important;
+    // }
+    .navbar {
+        min-height: 54px;
+    }
+    .navbar-brand{
+        font-size:22px !important;
+        margin-right: 0px !important;
+
+    }
+    .navbar-nav {
+        display: none !important;
+    }
+    .nav-right{
+        display: none !important;
+    }
+    .nav-buttons{
+        margin-left: 26px;
+    }
+    .links{
+        font-size:18px;
+    }
+    .btn-sign-up{
+        padding: 4px 8px;
+        font-size:14px;
+    }
+    .btn-login{
+        padding: 6px 10px !important;
+        font-size:14px;
+        margin: 0 15px 0 10px;
+
+    }
+
+    // home hero section
+    .img-amuse {
+        z-index:100;
+        height: 280px !important;
+        // margin-left:70px;
+    }
+    // free classes homepage
+    .box-free-class{
+        width: 374px !important;
+        height:410px;
+
+    }
+    .title-free-class{
+        font-size:18px;
+        
+    }
+    .time-free-class{
+        font-size:16px;
+    
+    }
+    .btn-book-trial{
+        padding: 6px 32px !important;
+    font-size:14px !important;
+    }
+    .img-free-class{
+        height:250px;
+    }
+     // courses page
+     .course-box-row-in{
+        min-width: 570px !important;
+        min-height: 212px;
+        margin:5px 0 0 0 !important;
+    }
+    .course-image{
+    border-radius: 10px 10px 0 0;
+
+    }
+    .rating-star{
+        height:24px !important; 
+        width:24px !important;
+        z-index:100;
+    }
+    .btn-user{
+        font-size:14px !important;
+        padding:4px !important;
+    }
+    .course-box-col-in-title{
+        font-size: 24px;
+        text-align:center;
+    }
+    .course-text{
+        font-size: 18px;
+    }
+    .days {
+        p {
+            font-size: 16px !important;
+        }
+    }
+    .price p {
+        font-size: 16px !important;
+    }
+    .age-group{
+    font-size: 16px;
+
+    }
+
+    // competetion info
+    .btn-participate{
+        padding: 8px 23px !important;
+        font-size:18px !important;
+    
+    }
+    .course-price {
+        background-color: inherit !important;
+        margin: 0;
+        font-size: 24px !important;
+        padding: 8px 18px !important;
+        // border-radius:10px !important;
+    }
+}
+@media only screen and (max-width:576px) {
+    .hamburger-menu{
+        display:flex;
+    }
+    .acc-btn-container{
+        width:100%;
+        display:flex;
+        justify-content: center;
+
+        
+        .btn-sign-up{
+            margin:0;
+        }
+        .btn-login {
+            margin:0;
+            
+        }
+    }
+    // .navbar-nav{
+    //     display: none !important;
+    // }
+    // .nav-right{
+    //     display:none !important;
+    // }
+    .navbar {
+        min-height: 54px;
+    }
+    .navbar-brand{
+        font-size:22px !important;
+        margin-right: 0px !important;
+
+    }
+    .navbar-nav {
+        display: none !important;
+    }
+    .nav-right{
+        display: none !important;
+    }
+    .nav-buttons{
+        margin-left: 26px;
+    }
+    .links{
+        font-size:18px;
+    }
+    .btn-sign-up{
+        padding: 4px 8px;
+        font-size:14px;
+    }
+    .btn-login{
+        padding: 6px 10px !important;
+        font-size:14px;
+        margin: 0 15px 0 10px;
+
+    }
+
+    // home hero section
+    .img-amuse {
+        z-index:100;
+        height: 240px !important;
+        margin-left:0px;
+    }
+    .right-heading{
+
+        padding-left:59px;
+        .heading-1{
+        z-index:1000;
+            position:relative;
+        font-size: 58px;
+
+        }
+        .heading-2{
+        z-index:1000;
+        position:relative;
+
+        font-size: 52px;
+            
+        }
+        .heading-3{
+        z-index:1000;
+        font-size: 48px;
+        position:relative;
+
+            
+        }
+    }
+
+    // courses page
+    .course-box-row-in{
+        min-width: 570px !important;
+        min-height: 212px;
+        margin:5px 0 0 0 !important;
+    }
+    .rating-star{
+        height:20px !important; 
+        width:20px !important;
+        z-index:100;
+    }
+    .btn-user{
+        font-size:10px !important;
+        padding:4px !important;
+    }
+    .course-box-col-in-title{
+        font-size: 18px;
+        text-align: center !important;
+    }
+    .course-text{
+        font-size: 16px;
+    }
+    .days {
+        p {
+            font-size: 16px !important;
+        }
+    }
+    .price p {
+        font-size: 14px !important;
+    }
+    .age-group{
+    font-size: 16px;
+
+    }
+    // courses page
+    .course-box-row-in{
+        min-width: 400px !important;
+        min-height: 212px;
+        margin:5px 5px !important;
+    }
+    .course-image{
+    border-radius: 10px 10px 0 0;
+
+    }
+    .rating-star{
+        height:24px !important; 
+        width:24px !important;
+        z-index:100;
+    }
+    .btn-user{
+        font-size:14px !important;
+        padding:4px !important;
+    }
+    .course-box-col-in-title{
+        font-size: 24px;
+        text-align:center;
+    }
+    .course-text{
+        font-size: 18px;
+    }
+    .days {
+        p {
+            font-size: 16px !important;
+        }
+    }
+    .price p {
+        font-size: 16px !important;
+    }
+    .age-group{
+    font-size: 16px;
+
+    }
+}

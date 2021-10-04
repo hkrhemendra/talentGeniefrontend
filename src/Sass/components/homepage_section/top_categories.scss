@@ -1,0 +1,12 @@
+
+// most of the css files are in the misc.scss for both top courses and top categories
+.top-categories {
+    margin: 80px 80px 100px 80px;  
+}
+
+
+@media only screen and (max-width: 992px) {
+    .top-categories{
+        margin: 40px 5px;
+    }
+}

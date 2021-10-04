@@ -1,0 +1,69 @@
+// pages
+@import "./pages/home.scss";
+@import "./pages/signup.scss";
+@import "./pages/competetion.scss";
+@import "./pages/courses.scss";
+@import "./pages/UserProfile.scss";
+@import "./pages/freeClasses.scss";
+@import "./components/singleCourse.scss";
+// components
+@import "./components/navbar.scss";
+@import "./components/homepage_section/top_categories.scss";
+@import "./components/homepage_section/free_classes.scss";
+@import "./components/homepage_section/teachers.scss";
+@import "./components/homepage_section/testimonial.scss";
+@import "./components/misc.scss";
+@import "./components/footer.scss";
+@import "./components/buttons.scss";
+@import "./components/compInfo.scss";
+
+@import "./media_queries.scss";
+// ubuntu fonts 
+// @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+// rambla font
+@import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// rubik font
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// Color for the website
+    
+:root {
+    
+    --secondary-accent: #FF6701;
+    --site-bg: rgba(243, 243, 243, 0.976);
+    --light-bg: rgb(255, 255, 255);
+    --nav-bg-light:#408A6E;
+   
+    // text color
+    --heading-primary:rgba(11, 108, 73,0.78);
+    --heading-secondary:#FDCA40;
+    --text-color: #ffffff;
+    --text-dark-color:#1C2331;
+    --text-dark-bg: #ffffff;
+    --dark-bg:#1C2331;
+
+    // components
+    --strike-line:rgba(11, 108, 73);
+    --footer-bg:#1E252D;
+    --slick-btn:#0e7bbb;
+    --tile-bg:rgba(99, 205, 175, 0.74);
+    --bg-1:#c7ede2;
+    --dropdown-bg-1:#c7ede2;
+    --dropdown-bg-2:rgba(99, 205, 175, 0.74);
+    // --testimonial-bg:#FFEBB8;
+    --testimonial-bg:#C7EDE2;
+
+    --input-padding-x: 1.5rem;
+    --input-padding-y: 0.75rem;
+}
+
+    
+
+* {
+    // font size 1rem = 16px
+    font-family: 'Rubik', sans-serif;
+    background-color:var(--site-bg) ;
+    box-sizing: border-box; 
+}
+
+

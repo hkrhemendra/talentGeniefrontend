@@ -1,0 +1,69 @@
+.footer{
+    background-color: var(--footer-bg) !important;
+    
+}
+// .footer-top{
+//     position:fixed;
+//     width:100%;
+//     overflow: hidden;
+//     z-index: 1000000;
+//     bottom: 0;
+// }
+.footer > * {
+    background-color: var(--footer-bg);
+    color:var(--text-color);
+}
+.footer-top-heading {
+    background-color: var(--footer-bg);
+    font-size: 18px;
+    letter-spacing:0.058em;
+    span{
+        background-color: var(--footer-bg);
+    }
+}
+.footer-top-heading a i {
+    background-color: var(--footer-bg);
+}
+
+.footer-bottom-container-row  {
+    background-color: var(--footer-bg);
+}
+.footer-bottom-container-row-col{
+    background-color: var(--footer-bg);
+}
+.footer-bottom-container-row-col > * {
+    background-color: var(--footer-bg);
+}
+.footer-bottom-container-row-col p i {
+    background-color: var(--footer-bg);
+}
+.footer-copyright  {
+    letter-spacing:0.04em;
+    border-top:1px solid white;
+    span{
+        background-color: var(--footer-bg);
+    }
+    
+}
+// .footer-top-heading{
+//     border-bottom:2px solid white;
+// }
+// font awesome icons 
+.fab {
+    font-size:23px;
+}
+.fa-facebook-f{
+    color:#1877f2;
+}
+.fa-twitter{
+    color:#1da1f2;
+}
+.fa-instagram{
+    color:#c32aa3;
+}
+.fa-linkedin{
+    color:#0a66c2;
+}
+.fa-whatsapp{
+    color:#6EC451;
+}

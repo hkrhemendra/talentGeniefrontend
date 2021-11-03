@@ -1,5 +1,5 @@
 .navbar {
-    color: var(--text-color);
+    color: var(--text-dark-color);
     background: var(--nav-bg-light);
     min-height: 64px;
     position: fixed !important;
@@ -30,22 +30,23 @@
 }
 
 .nav-item-container {
-    background: var(--nav-bg-light);
+    background: var(--text-dark-bg);
     .nav-item {
-        // background: var(--nav-bg-light);
+       // background: var(--nav-bg-light);
         text-decoration: none;
         font-style: normal;
         font-size: 16px;
+        font-weight: bold;
         display: flex;
         align-items: center;
         text-align: center;
         margin: 10px 10px;
         background-color: inherit;
         .links {
-            color: var(--site-bg);
+            color: var(--text-dark-color);
         }
         .links:hover {
-            color: var(--secondary-accent);
+            color: var(--text-dark-color);
             text-decoration: none;
         }
     }
@@ -65,7 +66,7 @@
 }
 
 .nav-buttons {
-    background-color: var(--nav-bg-light);
+    background-color: var(--nav-bg-dark);
     // display: flex;
     // align-items: center;
     text-decoration: none;
@@ -77,19 +78,17 @@
         font-weight: 600;
         color: var(--text-color);
         box-shadow: none;
-
+        background-color: #82DDFC;
         margin-bottom: 0px !important;
     }
 
     .btn-login {
-        background: var(--secondary-accent);
+        background: #FB6CAB;
         padding: 8px 16px;
-        margin: 0 20px 0 15px;
+        margin: 0 20px 0 0px;
         font-weight: 600;
-        color: var(--text-dark-bg);
-        box-shadow: none;
-        box-shadow: 0px 3px 2px rgba(255, 103, 1, 0.5);
-        border-radius: 12px;
+        color: var(--text-dark-color);
+        border-radius: 0px;
     }
 }
 

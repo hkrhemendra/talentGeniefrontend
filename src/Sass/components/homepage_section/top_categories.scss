@@ -1,12 +1,78 @@
 
 // most of the css files are in the misc.scss for both top courses and top categories
+// Top Category Background Designs
 .top-categories {
     margin: 80px 80px 100px 80px;  
+    background: transparent;
+    
+}
+.top-categories-background{
+    background-image: url('../../../images/assets/topcategoryleft.png'), url('../../../images/assets/topcategoryrightbottom.png');
+    background-position: left, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+}
+.slick-slider{
+    background: transparent !important;
+
+}
+.tile-container{
+    background: transparent !important;
+
+}
+.slick-prev{
+    left: -70px !important;
+}
+.slick-next{
+    right: -70px !important;
+}
+.slick-dots{
+    background: transparent !important;
+    bottom: -50px !important;
+}
+.slider-slide{
+    background: transparent !important;
 }
 
+// Top Course Background Design
+.top-courses-background{
+    background-image: url('../../../images/assets/top-courses-center-left.png'), url('../../../images/assets/top-courses-topleft.png') !important;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+}
 
+// Free Classes
+.free-classes-background{
+    background-image: url('../../../images/assets/free-classes-left.png'),url('../../../images/assets/free-classes-bottomright.png');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+}
+
+// Testimonials
+.testimonial-background{
+    background-image: url('../../../images/assets/testimonial-bottomleft.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section{
+    background:transparent;
+}
+.section-heading{
+    background:transparent;
+}
 @media only screen and (max-width: 992px) {
     .top-categories{
         margin: 40px 5px;
     }
+}
+
+@media only screen and (max-width: 576px){
+    .slick-slider{
+        margin: 40px 10px !important;
+    }
+    
 }

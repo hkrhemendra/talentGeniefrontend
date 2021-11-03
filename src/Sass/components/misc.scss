@@ -95,6 +95,7 @@ hr {
 
 .tile {
     background-color: var(--light-bg);
+    
     border-radius: 12px;
     color: var(--text-dark-color);
     margin-bottom: 24px;
@@ -117,13 +118,17 @@ hr {
 }
 .slider-image {
     border-radius: 8px 8px 0 0;
-    height: 400px;
+    height: 350px;
     max-width: 100%;
 }
 
 .slick-slider{
-    margin: 44px auto;
+    margin: 44px 100px;
+    padding: 20px;
+    border: solid #FFFFFF 10px;
+    border-radius: 20px;
 }
+
 
 .slick-next:focus:before,
 .slick-next:hover:before,
@@ -168,4 +173,13 @@ img {
 .inheritBgColor {
     background-color: inherit !important;
     text-transform: capitalize;
+}
+
+
+// Carousel Custom Background
+.custom-container{
+    background-image: url('../../images/assets/carousel-bottomleft.png'), url('../../images/assets/carousel-bottomright.png'), url('../../images/assets/carousel-topleft.png') ;
+    background-position: bottom left, top left, bottom center;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+  
 }

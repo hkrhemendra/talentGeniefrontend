@@ -88,7 +88,9 @@ const TopCourses = () => {
 
     return (
         <>
+        <div className="top-courses-background">
             <div className="section">
+            
                 <h2 className="section-heading">Top Courses</h2>
 
                 <Slider {...settings}>
@@ -98,6 +100,7 @@ const TopCourses = () => {
                     topCoursesData && topCoursesData.top_courses && topCoursesData.top_courses.slice(0,9).map((element) => {
                         return(
                             <Link to={"batch-details/"+ element.id}>
+                            
                             <div className="tile-container">
                                 <div className="d-flex justify-content-center px-3">
                                     <div className="tile" key={element.id}>
@@ -106,13 +109,16 @@ const TopCourses = () => {
                                     </div>
                                 </div>
                             </div>
+                       
                             </Link>
                         )
                     })
                 }
                 </Slider>
-            </div>
+                     </div>
+            
             <hr/>
+            </div>
         </>
     )
 }

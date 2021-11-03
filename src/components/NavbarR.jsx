@@ -80,7 +80,7 @@ const NavbarR = () => {
                             
                             {/*link to login page */}
                             <Link to="/login" className="nav-buttons">
-                                <button className="btn btn-login nounderline" >Login</button>
+                                <button className="btn btn-login nounderline" >Log In</button>
                             </Link>
                         </div>
                         )

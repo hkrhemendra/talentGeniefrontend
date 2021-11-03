@@ -1,16 +1,46 @@
-import React, { useEffect, useState } from "react";
-import {Link} from "react-router-dom";
+import React, { useEffect, useState, useContext} from "react";
+import {Link, Redirect, useHistory} from "react-router-dom";
 import ReactGA from "react-ga";
 import compSample from "../images/comp-sample.svg";
 import perks from "../images/perks.svg";
 import { competitionUrl } from "../apiData/api";
+import UserContext from "../../src/components/UserContext";
+import Login from "./Login";
+
 // Adding Google Analytics
 ReactGA.initialize("UA-201766739-1");
 // Adding Page View Property
 ReactGA.pageview("/competetion");
 
 const Competetion = () => {
+    const {accessToken,setAccessToken} = useContext(UserContext);
+    let history = useHistory();
+
     const [compData, setCompData] = useState([]);
+
+    const enrolCompetetion=()=> {
+        const options = {
+            method: "GET",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                'Authorization': 'Bearer '+ accessToken,
+            },
+        };
+        fetch("http://localhost:8000/api/v1/enrollment/1/enroll",options)
+            .then(res => res.json())
+            .then(
+                (result) => {
+                    alert("You are Enrolled Successfully in competition");
+                    console.log(result);
+                },
+                (error) => {
+                    console.log(error)
+                }
+            )
+    }
+    
     const getCompetetions = async () => {
         const options = {
             method: "GET",
@@ -42,6 +72,16 @@ const Competetion = () => {
     }, []);
     console.log("data");
     console.log(compData);
+
+    const competetion_enroll =()=>{
+        if(accessToken!==null){
+            console.log("You are Logged In");
+            enrolCompetetion();
+        }else{
+            history.push('/signup')
+        }
+    }
+
     return (
         <>
             <div className="section">
@@ -78,6 +118,7 @@ const Competetion = () => {
                         <h2 className="up-comp-heading text-center">
                             Upcoming Competetion
                         </h2>
+                       
                         <div className="row">
 
 
@@ -106,6 +147,13 @@ const Competetion = () => {
                                 </ul>
                             </div>
                         </div>
+                    </div>
+
+                    {/* Enrol Button */}
+                    <div className="text-center">
+                        <button className="btn btn-primary" onClick={competetion_enroll} >
+                            Enroll
+                        </button>
                     </div>
 
                     {/* video section static*/}

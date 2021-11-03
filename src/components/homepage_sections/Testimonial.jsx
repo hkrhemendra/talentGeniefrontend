@@ -53,6 +53,7 @@ const Testimonial = () => {
     // testimonialData.map((x)=>console.log(x.name));
     return (
         <>
+        <div className="testimonial-background">
             <div className="section">
                 <h2 className="section-heading">Testimonials</h2>
 
@@ -89,6 +90,7 @@ const Testimonial = () => {
                 </Slider>
                 
                 
+            </div>
             </div>
         </>    
     );

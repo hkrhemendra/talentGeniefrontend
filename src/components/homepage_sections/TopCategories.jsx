@@ -88,6 +88,7 @@ const TopCategories = () => {
     // styles are added in misc.scss
     return (
         <>
+        <div className="top-categories-background">
             <div className="top-categories">
                 <h2 className="section-heading">Top Categories</h2>
 
@@ -110,6 +111,7 @@ const TopCategories = () => {
                     })
                 }
                 </Slider>
+            </div>
             </div>
             <hr/>
         </>

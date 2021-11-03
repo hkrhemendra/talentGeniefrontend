@@ -49,6 +49,7 @@ const FreeClasses = () => {
     console.log(freeCourseData.free_courses);
     return (
         <>
+        <div className="free-classes-background">
             <div className="section">
                 <Link to="free-classes">
                     <h2 className="section-heading">Free Classes</h2>
@@ -119,7 +120,9 @@ const FreeClasses = () => {
                     </div>
                 </div>
             </div>
+            
             <hr />
+            </div>
         </>
     );
 };

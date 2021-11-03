@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import Slider from "react-slick";
+import summer from "../../images/assets/ColorfulSummer.png"
 import { teachersUrl } from '../../apiData/api';
 import LeftArrow from '../../images/assets/left-arrow.svg';
 import RightArrow from '../../images/assets/right-arrow.svg';
@@ -76,7 +77,7 @@ const Teachers = () => {
     return (
         <>
             <div className="section">
-                <h2 className="section-heading">Our Teachers</h2>
+                <h2 className="section-heading">Meet the Team</h2>
 
 
                 <Slider {...settings}>
@@ -101,8 +102,6 @@ const Teachers = () => {
                    
 
                 </Slider>
-                
-                
             </div>
         </>    
     )

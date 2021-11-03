@@ -30,21 +30,24 @@
 :root {
     
     --secondary-accent: #FF6701;
-    --site-bg: rgba(243, 243, 243, 0.976);
+    --site-bg: #BBECFF;
     --light-bg: rgb(255, 255, 255);
-    --nav-bg-light:#408A6E;
+    --nav-bg-light:#FFFFFF;
    
     // text color
     --heading-primary:rgba(11, 108, 73,0.78);
     --heading-secondary:#FDCA40;
-    --text-color: #ffffff;
+    --text-color: #000;
+    --text-footer-color: #FFFFFF;
     --text-dark-color:#1C2331;
     --text-dark-bg: #ffffff;
     --dark-bg:#1C2331;
+    --text-title-color:#FFE601;
+
 
     // components
     --strike-line:rgba(11, 108, 73);
-    --footer-bg:#1E252D;
+    --footer-bg: #B0D419;
     --slick-btn:#0e7bbb;
     --tile-bg:rgba(99, 205, 175, 0.74);
     --bg-1:#c7ede2;
@@ -67,3 +70,64 @@
 }
 
 
+
+.explore{
+    background-image: url('../images/assets/ColorfulSummer.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 720px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    h1{
+        padding: 200px 400px;
+        background:transparent;
+        color: var(--text-title-color);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .explore{
+        h1{
+            padding: 0px;
+        }
+    }
+    .right-heading{
+        margin-left: 0%;
+        .heading-1{
+            margin-left: 0%;
+        }
+        .carousel-button{
+            margin-left: 0px;
+        }
+    }
+    .genie-carousel{
+        margin-top: 0px;
+        background-size: auto;
+    }
+    
+  }
+
+
+@media only screen and (max-width: 576px) {
+
+    .right-heading{
+
+        a{
+            width: 10px;
+        }
+    }
+    .genie-carousel{
+        width:100%;
+        height: 300px;
+    }
+    .custom-containe{
+        background-size: contain;
+    }
+
+    .heading-button{
+        margin-left: 20%;
+    }
+
+  }

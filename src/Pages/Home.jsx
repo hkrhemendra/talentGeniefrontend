@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactGA from 'react-ga';
 import amuse from '../images/amuse.svg';
+import summer from '../images/assets/ColorfulSummer.png'
+import genie from '../images/assets/basic.png'
 import TopCategories from '../components/homepage_sections/TopCategories';
 import TopCourses from '../components/homepage_sections/TopCourses';
 import FreeClasses from '../components/homepage_sections/FreeClasses';
@@ -13,16 +15,20 @@ ReactGA.pageview('/');
 
 const Home = () => {
     return(<>
+       
         <div className="container no-gutters">
-            <div className="row content-head align-items-center justify-content-center">
-                <div className="col-lg-6 d-flex  justify-content-start align-items-center flex-column">
-                    <img className="img-amuse img-responsive" src={amuse} alt="skill hut"/>
+            <div className="row content-head custom-container">
+                <div className="col-lg-4 d-flex align-self-center custom-flex">
+                    {/* <img className="img-amuse img-responsive" src={amuse} alt="skill hut"/> */}
+                    <div className="right-heading left-heading">
+                        <h1 className="heading-1">
+                            Discover Your Creative Side
+                        </h1>
+                        <a href="" className="heading-button"> <button className="btn carousel-button" > Book Free Trail</button></a>
+                    </div>
                 </div>
-                <div className="right-heading col-lg-6 d-flex  justify-content-start align-items-center flex-column">
-                    <div><h2 className="heading-1">Make Time For<br/></h2>
-                    <h2 className="heading-2">Creativity<br/></h2>
-                    <h2 className="heading-3">To Kid's Passion<br/></h2>
-                    <p className="mx-5" >lorem ipsum dolor sit lorem, consectetur adip</p></div>
+                <div className="right-heading col-lg-8 d-flex justify-content-end">
+                    <img src={genie} alt="" className="genie-carousel " width="100%" height="600"/>
                 </div>
             </div>
         </div>
@@ -33,6 +39,13 @@ const Home = () => {
         <Testimonial/> 
         {/* videos section not yet done by backend */}
         <Teachers/>
+        <div className="explore">
+            <h1>
+                Explore your Creative Side with Talent Genie
+            </h1>            
+        </div>
+        
+                
     </>);
 }
 
